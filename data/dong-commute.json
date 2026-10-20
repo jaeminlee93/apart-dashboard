@@ -1,0 +1,40 @@
+{
+  "_meta": {
+    "description": "동별 강남역 출퇴근 시간과 교통·인프라 등급. 지하철 노선도와 dong-info.json 문구를 보고 수기로 추정한 값이며, 길찾기 서비스로 확인한 값이 아니다. 검수 후 확정.",
+    "destination": "강남역(2호선·신분당선)",
+    "lastReviewed": null,
+    "fields": {
+      "min": "집 근처 역(또는 버스 접근)에서 강남역까지 대략 소요 분 (접근 시간 포함, 평일 출근 시간대 기준 추정)",
+      "transfers": "환승 횟수 (버스 환승 포함)",
+      "route": "대표 경로",
+      "transit": "교통 등급 1~5 (5: 환승·더블역세권, 4: 역세권, 3: 도보권 일부, 2: 버스 보조 필요, 1: 지하철역 없음)",
+      "infra": "생활 인프라 등급 1~5 (dong-info.json 문구에 나온 상권·마트·공원 등을 보고 부여)"
+    }
+  },
+  "dong": [
+    { "gu": "구로구", "dong": "구로동", "min": 30, "transfers": 0, "route": "2호선 구로디지털단지 → 강남", "transit": 4, "infra": 4 },
+    { "gu": "구로구", "dong": "신도림동", "min": 30, "transfers": 0, "route": "2호선 신도림 → 강남", "transit": 5, "infra": 5 },
+    { "gu": "구로구", "dong": "개봉동", "min": 45, "transfers": 1, "route": "1호선 개봉 → 신도림 환승 → 2호선 강남", "transit": 4, "infra": 3 },
+    { "gu": "구로구", "dong": "고척동", "min": 47, "transfers": 1, "route": "1호선 개봉·구일 → 신도림 환승 → 2호선 강남", "transit": 3, "infra": 3 },
+    { "gu": "구로구", "dong": "오류동", "min": 50, "transfers": 1, "route": "1호선 오류동 → 신도림 환승 → 2호선 강남", "transit": 4, "infra": 3 },
+    { "gu": "구로구", "dong": "천왕동", "min": 60, "transfers": 1, "route": "7호선 천왕 → 대림 환승 → 2호선 강남", "transit": 4, "infra": 3 },
+    { "gu": "구로구", "dong": "항동", "min": 70, "transfers": 2, "route": "버스 → 7호선 천왕·온수 → 환승 → 강남", "transit": 1, "infra": 2 },
+    { "gu": "구로구", "dong": "온수동", "min": 58, "transfers": 1, "route": "7호선 온수 → 대림 환승 → 2호선 강남", "transit": 5, "infra": 2 },
+    { "gu": "구로구", "dong": "궁동", "min": 65, "transfers": 2, "route": "버스 → 1·7호선 오류동·온수 → 환승 → 강남", "transit": 1, "infra": 1 },
+    { "gu": "구로구", "dong": "가리봉동", "min": 45, "transfers": 1, "route": "7호선 남구로 → 대림 환승 → 2호선 강남", "transit": 4, "infra": 2 },
+    { "gu": "금천구", "dong": "독산동", "min": 50, "transfers": 1, "route": "1호선 독산 → 신도림 환승 → 2호선 강남", "transit": 4, "infra": 4 },
+    { "gu": "금천구", "dong": "시흥동", "min": 58, "transfers": 2, "route": "버스 → 1호선 금천구청 → 신도림 환승 → 강남", "transit": 2, "infra": 2 },
+    { "gu": "금천구", "dong": "가산동", "min": 45, "transfers": 1, "route": "7호선 가산디지털단지 → 대림 환승 → 2호선 강남", "transit": 5, "infra": 4 },
+    { "gu": "영등포구", "dong": "신길동", "min": 40, "transfers": 1, "route": "5호선 신길 → 여의도 환승 → 9호선 급행 → 신논현", "transit": 5, "infra": 4 },
+    { "gu": "영등포구", "dong": "여의도동", "min": 30, "transfers": 0, "route": "9호선 급행 여의도 → 신논현(강남역 도보)", "transit": 5, "infra": 5 },
+    { "gu": "영등포구", "dong": "대림동", "min": 32, "transfers": 0, "route": "2호선 대림 → 강남", "transit": 5, "infra": 4 },
+    { "gu": "영등포구", "dong": "문래동", "min": 35, "transfers": 0, "route": "2호선 문래 → 강남", "transit": 4, "infra": 4 },
+    { "gu": "영등포구", "dong": "당산동", "min": 35, "transfers": 0, "route": "9호선 급행 당산 → 신논현(강남역 도보)", "transit": 5, "infra": 5 },
+    { "gu": "영등포구", "dong": "양평동", "min": 40, "transfers": 1, "route": "9호선 선유도 → 당산 환승 → 급행 → 신논현", "transit": 4, "infra": 4 },
+    { "gu": "영등포구", "dong": "영등포동", "min": 40, "transfers": 1, "route": "1호선 영등포 → 신도림 환승 → 2호선 강남", "transit": 4, "infra": 5 },
+    { "gu": "영등포구", "dong": "도림동", "min": 35, "transfers": 0, "route": "2호선 신도림 → 강남", "transit": 3, "infra": 3 },
+    { "gu": "관악구", "dong": "봉천동", "min": 25, "transfers": 0, "route": "2호선 서울대입구·봉천 → 강남", "transit": 4, "infra": 5 },
+    { "gu": "관악구", "dong": "신림동", "min": 27, "transfers": 0, "route": "2호선 신림 → 강남", "transit": 4, "infra": 4 },
+    { "gu": "관악구", "dong": "남현동", "min": 25, "transfers": 1, "route": "버스 → 2호선 사당 → 강남", "transit": 1, "infra": 2 }
+  ]
+}
